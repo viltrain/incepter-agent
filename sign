@@ -1,0 +1,3 @@
+#!/bin/sh
+
+openssl x509 -req -days 365 -sha256 -CA ca.pem -CAkey ca-key.pem -CAcreateserial -extfile extfile.cnf
